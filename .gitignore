@@ -1,0 +1,9 @@
+node_modules/
+.parcel-cache
+dist/
+images/
+tailwind.css
+swiper.js
+tailwind.config.js
+dist
+.vscode

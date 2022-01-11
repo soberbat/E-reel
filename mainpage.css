@@ -1,0 +1,385 @@
+/* CARDS  START*/
+
+/* .card{
+    width: 400px;
+    height: 700px;
+}
+
+.header{
+    font-size: 100px;
+}
+
+.imgholder{
+    background-image: url("https://images.unsplash.com/photo-1572288120039-25c7104fb7f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80");
+    background-position: center;
+    background-size: cover;
+    transition: all .4s;
+}
+
+.imgholder::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 51, 77, 0.493);
+}
+
+.card:hover .imgholder{
+    transform: scale(1.2);
+} */
+
+/* CARDS END */
+
+/* TEXTBOX  */
+
+.start-text-box {
+  background-color: #10bcc8;
+}
+
+/* TEXTBOX END */
+
+/* CARDS GRİD START */
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+}
+
+/* GRİD GROUPS START */
+
+.grid-group-b {
+  transform: translateY(-90px);
+}
+
+.grid-group-c {
+  transform: translateY(-180px);
+}
+
+.grid-group-d {
+  transform: translateY(-120px);
+}
+
+/* CARDS SPECS */
+
+.card-itself {
+  width: 320px;
+  height: 450px;
+}
+
+.card-background {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.4s;
+}
+
+.card-background::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 51, 77, 0.493);
+  opacity: 0;
+}
+
+.card-itself:hover .card-background::before {
+  opacity: 1;
+}
+
+.card-itself:hover .card-background {
+  transform: scale(1.2);
+}
+
+.card-itself:hover .card-background .text-section {
+  opacity: 0;
+}
+
+.card-background .text-section {
+  transition: all ease-in-out 0.2s;
+}
+
+.card-itself:hover .card-background .hover-text {
+  opacity: 1;
+}
+
+.card-itself:hover .marquee {
+  opacity: 1;
+}
+
+.card-img1 {
+  background-image: url("https://images.unsplash.com/photo-1536559692556-79e8be88e8ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGdhbGF4eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+.card-img2 {
+  background-image: url("https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img3 {
+  background-image: url("https://images.unsplash.com/photo-1540449078594-94d6173856c0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img4 {
+  background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img5 {
+  background-image: url("https://images.unsplash.com/photo-1447433693259-c8549e937d62?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img6 {
+  background-image: url("https://images.unsplash.com/photo-1539748640636-6de17ddba1fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img7 {
+  background-image: url("https://images.unsplash.com/photo-1614926037384-4159c33e196b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img8 {
+  background-image: url("https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img9 {
+  background-image: url("https://images.unsplash.com/photo-1523968063095-61264537fc21?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img10 {
+  background-image: url("https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2FsYXh5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img11 {
+  background-image: url("https://images.unsplash.com/photo-1507908708918-778587c9e563?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+.card-img12 {
+  background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGdhbGF4eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+
+/* GRİD GROUPS END*/
+
+/* CARDS SPECS */
+
+.specs {
+  color: #fff;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.2);
+  height: 3.39886rem;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1.1996rem;
+  border-radius: 1.69943rem;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0 0.39987rem 0 0;
+}
+
+/* CARDS SPECS  END */
+
+/* CARDS GRİD END */
+
+.marquee:hover {
+  opacity: 1;
+}
+
+/* PHOTO SECTİON  START */
+
+.photo-section {
+  background-image: url("https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-position: center;
+  background-size: cover;
+}
+
+.photo-section::after {
+  content: "";
+  position: absolute;
+  z-index: 99999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  box-shadow: inset -10px -500px -500px -500px #0f1c33;
+  background-image: linear-gradient(to top, #0f1c33, transparent);
+}
+
+/* PHOTO SECTİON END */
+
+/* SlİDER SECTİON START */
+
+/* SlİDER SECTİON END */
+
+/*! locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+.c-scrollbar:hover {
+  transform: scaleX(1.45);
+}
+.c-scrollbar:hover,
+.has-scroll-scrolling .c-scrollbar,
+.has-scroll-dragging .c-scrollbar {
+  opacity: 1;
+}
+[data-scroll-direction="horizontal"] .c-scrollbar {
+  width: 100%;
+  height: 10px;
+  top: auto;
+  bottom: 0;
+  transform: scaleY(1);
+}
+[data-scroll-direction="horizontal"] .c-scrollbar:hover {
+  transform: scaleY(1.3);
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.has-scroll-dragging .c-scrollbar_thumb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+[data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+  right: auto;
+  bottom: 0;
+}
+
+/* SWİPER */
+
+.groupe {
+  font-family: ToyBox;
+}
+
+.swiper-pagination-bullets .swiper-pagination-bullet-active.active {
+  width: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.header-font {
+  font-family: Delio-trial;
+}
+
+@media (min-width: 1140px) {
+  .grid {
+    grid-template-columns: repeat(4, 300px);
+  }
+
+  .grid-group-b {
+    transform: translateY(-90px);
+  }
+
+  .grid-group-c {
+    transform: translateY(-180px);
+  }
+
+  .grid-group-d {
+    transform: translateY(-120px);
+  }
+
+  .text-section-text {
+    font-size: 10rem;
+    line-height: 150px;
+  }
+
+  .slider-section-header {
+    font-size: 40rem;
+    font-family: Delio-trial;
+    letter-spacing: -80px;
+  }
+
+  .swiper {
+    height: 120vh;
+    margin-top: -350px;
+  }
+}
+
+.background-image-card {
+  background-image: url("/images/maxim-hopman-8vn4KvfU640-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+.image-1 {
+  background-image: url("/images/barbara-zandoval-w0lI3AkD14A-unsplash.jpg");
+}
+.image-2 {
+  background-image: url("/images/xr-expo-ipDhOQ5gtEk-unsplash.jpg");
+}
+.image-3 {
+  background-image: url("/images/vinicius-amnx-amano-MvJezf8FT4o-unsplash.jpg");
+}
+@media (max-width: 640px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  .grid-group-b {
+    transform: translateY(0px);
+  }
+
+  .grid-group-c {
+    transform: translateY(0px);
+  }
+
+  .grid-group-d {
+    transform: translateY(0px);
+  }
+
+  .slider-section-header {
+    font-size: 5rem;
+  }
+
+  .swiper {
+    max-width: 80vw;
+    height: 1000px;
+  }
+}
+
+.swiper-pagination {
+  top: 620px;
+}
